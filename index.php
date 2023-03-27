@@ -10,14 +10,14 @@
 
  <h1>testephp</h1>  
  <?php
- //thaiany,giovanna,joão,thiago
+ //thaiany,giovanna,isabelly
  
  echo"isso é php";
  echo"php ok"."<br>";
  $servidor="localhost";
- $usuario="gigi";
- $senha="123";
- $nomedb="gigi";
+ $usuario="id19705063_escola";
+ $senha="rabelo1234Isa>";
+ $nomedb="id19705063_db1";
 
  $conn=new mysqli($servidor,$usuario,$senha,$nomedb);
  //testa conexão
@@ -27,6 +27,18 @@
     # code...
  }
  echo"conectado ao db"."<br>";
+ $sql = "SELECT nome, sobrenome, telefone FROM agenda";
+$resultado = $conn->query($sql);
+
+if ($resultado->num_rows > 0) {
+    while ($linha = $resultado->fetch_assoc()) {
+        echo $linha["nome"] . " " . $linha["sobrenome"] . " - " . $linha["telefone"] . "<br>";
+    }
+} else {
+    echo "Nenhum registro encontrado.";
+}
+
+$conn->close();
  ?> 
 </body>
 </html>
