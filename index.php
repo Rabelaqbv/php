@@ -15,7 +15,7 @@
  echo"isso é php";
  echo"php ok"."<br>";
  $servidor="localhost";
- $usuario="id19705063_escola";
+ $usuario="id20491802_uso";
  $senha="rabelo1234Isa*#";
  $nomedb="id20491802_mldooo";
 
