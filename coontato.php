@@ -1,5 +1,5 @@
 <!DOCTYPE html >
-<html  lang =" en " >
+<html>
 <body>
     <meta  charset =" UTF-8 " >
     <meta  http-equiv =" X-UA-Compatible " content =" IE=edge " >
@@ -9,15 +9,15 @@
 </body >
 <body >
     <h1 > Inserir contato </h1 >
-    <form  action =" contato.php " method =" POST " >
+    <form  action =" coontato.php " method =" POST ">
         <label > Nome: </label > <br >
-        <input  type =" text " name =" fnome " >  <br >
+        <input  type =" text " name =" fnome " >  <br>
         <label > Sobrenome: </label > <br >
-        <input  type =" text " name =" fsobrenome " > <br >
+        <input  type =" text " name =" fsobrenome " > <br>
         <label > Telefone: </label > <br >
-        <input  type =" text " name =" ftelefone " > <br >
-        <tipo de entrada  =" enviar " valor =" Gravar " >
-</forma> _ _
+        <input  type =" text " name =" ftelefone " > <br>
+        <tipo de entrada  =" enviar " valor =" Gravar ">
+</forma>
 <a href =" index.php " > Consultar agenda </a >
 <?php 
 include " conexao.php ";

@@ -7,7 +7,7 @@ $nomedb =" id20491802_mldooo ";
 $conn = new mysqli( $servername , $username , $senha, $nomedb );
 //testa conexão
 if ( $conn -> connect_error ){
-    die(" conexão com db falhou: ". $conn -> connect_error );
+    die(" conexão com db falhou: ". $conn-> connect_error );
 }
 echo " conectado ao db ";
 ?>
