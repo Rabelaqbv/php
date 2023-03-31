@@ -1,9 +1,7 @@
 <!DOCTYPE html >
 <html>
 <body>
-    <meta  charset =" UTF-8 " >
-    <meta  http-equiv =" X-UA-Compatible " content =" IE=edge " >
-    <meta  name =" janela de visualização " conteúdo =" largura=largura do dispositivo, escala inicial=1,0 " >
+ 
     <link  rel =" folha de estilo " href =" style.css " >
     <title > GIOVANNA </title >
 </body >
