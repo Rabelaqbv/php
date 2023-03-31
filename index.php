@@ -16,7 +16,7 @@
  echo"php ok"."<br>";
  $servidor="localhost";
  $usuario="id20491802_uso";
- $senha="rabelo1234Isa>";
+ $senha="f2\Na#5}YT_U[LR-";
  $nomedb="id20491802_mldooo";
 
  $conn=new mysqli($servidor,$usuario,$senha,$nomedb);
