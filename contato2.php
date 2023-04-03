@@ -8,7 +8,7 @@
 </head>
 <body>
 <h1 > Inserir contato </h1 >
-    <form  action ="contato.php" method =" POST ">
+    <form  action ="contato2.php" method =" POST ">
         <label > Nome: </label > <br >
         <input  type =" text " name =" fnome " >  <br>
         <label > Sobrenome: </label > <br >
