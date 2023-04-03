@@ -22,9 +22,9 @@
 include "conexao.php";
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Coleta os dados do formulário
-    $nome = $_POST["nome"];
-    $sobrenome = $_POST["sobrenome"];
-    $telefone = $_POST["telefone"];
+    $nome = $_POST["fnome"];
+    $sobrenome = $_POST["fsobrenome"];
+    $telefone = $_POST["ftelefone"];
   
     // Insere os dados no banco de dados
     $sql = "INSERT INTO agenda (nome, sobrenome, telefone) VALUES ('$nome', '$sobrenome', '$telefone')";
