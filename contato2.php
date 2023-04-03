@@ -16,7 +16,14 @@
         <label > Telefone: </label > <br >
         <input  type =" text " name =" ftelefone " > <br>
         <input type="submit" value="Gravar">
-</forma>
+</form>
+
+<?php
+include "conexao.php";
+
+?>
+
+
 <a href ="index.php" > Consultar agenda </a >
 </body>
 </html>
