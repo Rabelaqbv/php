@@ -20,6 +20,21 @@
 
 <?php
 include "conexao.php";
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Coleta os dados do formulário
+    $nome = $_POST["nome"];
+    $sobrenome = $_POST["sobrenome"];
+    $telefone = $_POST["telefone"];
+  
+    // Insere os dados no banco de dados
+    $sql = "INSERT INTO agenda (nome, sobrenome, telefone) VALUES ('$nome', '$sobrenome', '$telefone')";
+    if ($conn->query($sql) === TRUE) {
+      echo "Dados inseridos com sucesso"."<br>";
+    } else {
+      echo "Erro ao inserir dados: " . $conn->error;
+    }
+  }
+  $conn->close();
 
 ?>
 
