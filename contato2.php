@@ -15,7 +15,7 @@
         <input  type =" text " name =" fsobrenome " > <br>
         <label > Telefone: </label > <br >
         <input  type =" text " name =" ftelefone " > <br>
-        <tipo de entrada  =" enviar " valor =" Gravar ">
+        <input type="submit" value="Gravar">
 </forma>
 <a href ="index.php" > Consultar agenda </a >
 </body>
