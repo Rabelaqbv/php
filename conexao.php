@@ -10,6 +10,6 @@
  //testa conexão
  if ($conn->connect_error){
     die("conexao falhou:".$conn->connect_error);
-    echo"conectado ao banco de dados";
+    echo"conectado ao banco de dados";}
 
 ?>
