@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Inicia a sessão com o ID do usuário
         $row = mysqli_fetch_assoc($result);
         $_SESSION["user_id"] = $row["id"];
-        header("Location: index.php");
+        header("Location: contato2.php");
         exit();
     } else {
         $login_error = "Nome de usuário ou senha inválidos.";
