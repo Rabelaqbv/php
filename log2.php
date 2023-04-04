@@ -1,6 +1,6 @@
 <?php
 include "conexao.php";
-session_start();
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Obtém o nome de usuário e senha do formulário
     $username = mysqli_real_escape_string($conn, $_POST["username"]);
