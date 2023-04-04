@@ -40,7 +40,7 @@ if ($resultado->num_rows > 0) {
 
 $conn->close();
  ?> 
- <a href="contato2.php">Inserir novo contato</a>
+ <a href="log2.php">Inserir novo contato</a>
 </body>
 </html>
 
